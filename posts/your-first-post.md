@@ -1,12 +1,11 @@
 <!--
-.. title: Your First Post
-.. slug: your-first-post
-.. date: 2016-08-29 15:29:40 UTC
-.. tags: 
+.. title: My First Post
+.. slug: my-first-post
+.. date: 2019-03-13 05:05:00 UTC
+.. tags: netlify
 .. category: 
 .. link: 
 .. description: 
 .. type: text
 -->
-
-Write your post here.
+#This is my first post using this new platform.
