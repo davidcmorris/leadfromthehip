@@ -1,7 +1,7 @@
 <!--
 .. title: About
 .. slug: my-about
-.. date: 2019-03-13 05:05:00 UTC
+.. date: 2019-03-16 05:05:00 UTC
 .. tags: about
 .. category: About
 .. link: 
@@ -11,5 +11,6 @@
 
 # What to expect when reading this blog?
 
-- Put some stuff in here.
-- And more stuff.
+- I like listening to podcasts during my commute.  One of my favorite things to discover while listening to them is when the discussion cuts to aspects or topics related to leadership.  
+- Typically, these discussions come up naturally and unplanned.  
+- Hence, the title for this blog, Lead from the Hip.  
