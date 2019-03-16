@@ -1,11 +1,12 @@
 <!--
-.. title: My Second Post
-.. slug: my-second-post
-.. date: 2019-03-13 05:013:00 UTC
-.. tags: netlify
+.. title: Howard Marks on Prioritizing Personnel and Management Priority
+.. slug: howard-marks
+.. date: 2019-03-17
+.. tags: 
 .. category: 
 .. link: 
 .. description: 
 .. type: text
 -->
-# My first try in uploading a python notebook failed.  I will try, try, again.  Thinking maybe I need to add the first part to the file.  I'll try that.
+# This is where my post will go.  
+> It will also include a quote that should format.
