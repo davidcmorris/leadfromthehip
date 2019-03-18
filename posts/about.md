@@ -1,5 +1,5 @@
 <!--
-.. title: About Lead from the Hip
+.. title: What does Lead from the Hip mean?
 .. slug: about-lead-from-the-hip
 .. date: 2019-03-13 05:05:00 UTC
 .. tags: about
@@ -9,6 +9,4 @@
 .. type: text
 -->
 
-# What does Lead from the Hip mean?
-
-## Lead from the Hip is when a person shares their personal experiences regarding leadership that naturally occurs during a conversation without prompting.
+Lead from the Hip is when a person shares their personal experiences regarding leadership that naturally occurs during a conversation without prompting.
