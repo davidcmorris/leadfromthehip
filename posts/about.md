@@ -1,7 +1,7 @@
 <!--
 .. title: What does Lead from the Hip mean?
 .. slug: about-lead-from-the-hip
-.. date: 2019-03-13 05:05:00 UTC
+.. date: 2013-09-01 05:05:00 UTC
 .. tags: about
 .. category:
 .. link: 
