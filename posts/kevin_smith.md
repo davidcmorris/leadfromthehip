@@ -1,5 +1,5 @@
 <!--
-.. title: Kevin Smith on learning to let go when leading?
+.. title: Kevin Smith on learning to let go
 .. slug: kevin_smith
 .. date: 2013-09-13 02:09:00 UTC
 .. tags: autonomy
@@ -13,7 +13,7 @@ In Jay and Silent Bob Get Old 10: Mewes Shook Me All Night Long, a podcast inspi
 and movie sidekick Jason Mewes on-the-wagon, Kevin Smith breaks from the usual comedic routine to talk about
 what he's learned over the years as a director and how his personal style of leadership has progressed.
 
-< I could never understand when I was younger and listening to older directors, how much control they gave up.
+> I could never understand when I was younger and listening to older directors, how much control they gave up.
 When I was a young director, I used to force actors to do what I wanted them to do. 
 Now that I'm older, I get it. You get more by letting go. 
 If you put somebody in charge of their own performance, they are ultimately going to give you their best. 
