@@ -1,16 +1,14 @@
 <!--
-.. title: About
-.. slug: my-about
-.. date: 2019-03-16 05:05:00 UTC
+.. title: About Lead from the Hip
+.. slug: about-lead-from-the-hip
+.. date: 2019-03-13 05:05:00 UTC
 .. tags: about
-.. category: About
+.. category:
 .. link: 
-.. description: This post describes they Lead from the Hip exists.
+.. description: This post describes why Lead from the Hip exists.
 .. type: text
 -->
 
-# What to expect when reading this blog?
+# What does Lead from the Hip mean?
 
-- I like listening to podcasts during my commute.  One of my favorite things to discover while listening to them is when the discussion cuts to aspects or topics related to leadership.  
-- Typically, these discussions come up naturally and unplanned.  
-- Hence, the title for this blog, Lead from the Hip.  
+## Lead from the Hip is when a person shares their personal experiences regarding leadership that naturally occurs during a conversation without prompting.
