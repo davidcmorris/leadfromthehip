@@ -1,22 +1,14 @@
 <!--
-.. title: Howard Marks on Decision Making and Priority Setting?
+.. title: Howard Marks on Decision-making with Shane Parrish
 .. slug: howard-marks
-.. date: 2019-03-17
-.. tags: decision-making, priority
+.. date: 2019-03-17 09:00:00 PDT
+.. tags: decision-making
 .. category:
 .. link: 
-.. description: This post is from a conversation between Shane Parrish and Howard Marks.
+.. description: This post is based on a conversation between Shane Parrish and Howard Marks from The Knowledge Project podcast with Shane Parrish, March 5, 2019, Luck, Risk, and Avoiding Losers, and Interview with Howard Marks from Oaktree Capital.
 .. type: text
 -->
+Shane interviews Howard Marks from Oaktree Capital on his podcast, The Knowledge Project with Shane Parrish.  The episode aired March 5, 2019 and is titled, Luck, Risk, and Avoiding Losers.  
 
-## From The Knowledge Project with Shane Parrish
-### March 5, 2019
-### Luck, Risk and Avoiding Losers
-### Interview with Howard Marks from Oaktree Capital
-
-*Minute Mark - 15:37*
+Howard *Leads from the Hip* beginning at the 15:37 minute mark in the interview:
 > We understand that we are going to sometimes make decisions that aren't going to work and the people we work with are going to sometimes make decisions that aren't going to work all the time either.  We have a mentality that recognizes this and doesn't criticize people every time something goes wrong and we try to hire people who aren't terribly emotional or egotistical, who don't have a lot of hubris or testosterone, and I think we try to have a mellow organization which is very helpful in all these regards.
-
-*How do you test for that?*
-
-> Just talking.  We don't run psychological tests.  The first step in solving a personnel or management problem is acknowledging it.  So if you put a high priority on hiring the person I just described, you have a better chance of doing so and we do. 
