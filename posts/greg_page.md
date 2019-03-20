@@ -1,6 +1,6 @@
 <!--
 .. title: Greg Page on CEO communication
-.. slug: colin_powell
+.. slug: greg_page
 .. date: 2015-01-12 04:24:00 UTC
 .. tags: communication, ceo
 .. category:
