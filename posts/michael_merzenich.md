@@ -1,5 +1,5 @@
 <!--
-.. title: Michael Merzenich on realizing potential?
+.. title: Michael Merzenich on realizing potential
 .. slug: michael_merzenich
 .. date: 2014-01-24 03:27:00 UTC
 .. tags: potential
