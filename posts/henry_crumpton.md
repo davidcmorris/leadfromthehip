@@ -1,5 +1,5 @@
 <!--
-.. title: Hank Crumton on what makes a good spy.
+.. title: Hank Crumton on what makes a good spy
 .. slug: henry_crumpton
 .. date: 2013-10-08 03:15:00 UTC
 .. tags: characteristics
