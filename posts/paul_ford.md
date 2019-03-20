@@ -1,5 +1,5 @@
 <!--
-.. title: Paul Ford on self identity
+.. title: Paul Ford on self-identity
 .. slug: paul_ford
 .. date: 2015-01-23 04:26:00 UTC
 .. tags: identity
