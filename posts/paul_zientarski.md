@@ -1,8 +1,8 @@
 <!--
-.. title: Paul Zientarski on knowledge, skills, and abilities
+.. title: Paul Zientarski on High School Competencies
 .. slug: paul_zientarski
 .. date: 2014-07-13 04:14:00 UTC
-.. tags: ksaps
+.. tags: competencies
 .. category:
 .. link: 
 .. description: Excerpt pulled from the Book Spark by John Ratey.
