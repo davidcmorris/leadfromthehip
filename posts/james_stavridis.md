@@ -1,8 +1,8 @@
 <!--
-.. title: James Stavridis on four behaviors behaviors military leaders share
+.. title: James Stavridis on Military Leadership Behaviors
 .. slug: james_stavridis
 .. date: 2018-01-30 07:32:00 UTC
-.. tags: characteristics, behaviors
+.. tags: behaviors
 .. category:
 .. link: 
 .. description: This post describes why Lead from the Hip exists.
