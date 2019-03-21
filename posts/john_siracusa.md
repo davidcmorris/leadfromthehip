@@ -1,5 +1,5 @@
 <!--
-.. title: John Siracusa on Change Management
+.. title: John Siracusa on Career Advancement
 .. slug: john_siracusa
 .. date: 2018-02-22 05:18:00 UTC
 .. tags: career_advancement
