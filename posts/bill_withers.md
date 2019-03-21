@@ -1,5 +1,5 @@
 <!--
-.. title: Musician Bill Withers on realizing potential
+.. title: Bill Withers on Realizing Potential
 .. slug: bill_withers
 .. date: 2013-09-30 06:00:00 UTC
 .. tags: potential
