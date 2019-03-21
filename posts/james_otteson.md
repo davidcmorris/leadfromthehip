@@ -1,5 +1,5 @@
 <!--
-.. title: James Otteson on diversity and inclusion
+.. title: James Otteson on Diversity and Inclusion
 .. slug: james_otteson
 .. date: 2014-12-10 04:04:00 UTC
 .. tags: diversity, inclusion
