@@ -1,8 +1,8 @@
 <!--
-.. title: Kevin Rose on hiring
+.. title: Kevin Rose on Staffing Start-ups
 .. slug: kevin_rose
 .. date: 2013-09-28 05:33:00 UTC
-.. tags: hiring
+.. tags: staffing
 .. category:
 .. link: 
 .. description:  Leo Laporte interviews Kevin Rose.
