@@ -1,8 +1,8 @@
 <!--
-.. title: Colin Powell on compromise
+.. title: Colin Powell on Bipartisanship
 .. slug: colin_powell
 .. date: 2014-10-03 03:31:00 UTC
-.. tags: values
+.. tags: bipartisanship
 .. category:
 .. link: 
 .. description: Excerpt pulled from Real Time with Bill Maher Episode 329.
