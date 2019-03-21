@@ -1,8 +1,8 @@
 <!--
-.. title: Paul Ford on self-identity
+.. title: Paul Ford on Modesty
 .. slug: paul_ford
 .. date: 2015-01-23 04:26:00 UTC
-.. tags: identity
+.. tags: modesty
 .. category:
 .. link: 
 .. description: Cannot remember original source.  I originally posted this to Google+ back in 2015.
