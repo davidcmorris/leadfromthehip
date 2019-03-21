@@ -1,8 +1,8 @@
 <!--
-.. title: Kevin Smith on learning to let go
+.. title: Kevin Smith on Participative Leadership
 .. slug: kevin_smith
 .. date: 2013-09-13 02:09:00 UTC
-.. tags: autonomy
+.. tags: participative_leadership
 .. category:
 .. link: 
 .. description: This post is from a podcast back in 2013.  I tried to re-link back to it, but seems unavailable on Sound Cloud now.
