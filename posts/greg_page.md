@@ -1,5 +1,5 @@
 <!--
-.. title: Greg Page on CEO communication
+.. title: Greg Page on Effective Communication Skills for CEOs
 .. slug: greg_page
 .. date: 2015-01-12 04:24:00 UTC
 .. tags: communication, ceo
