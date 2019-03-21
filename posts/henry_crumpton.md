@@ -1,8 +1,8 @@
 <!--
-.. title: Hank Crumton on what makes a good spy
+.. title: Hank Crumpton on Spy Competencies
 .. slug: henry_crumpton
 .. date: 2013-10-08 03:15:00 UTC
-.. tags: characteristics
+.. tags: competencies
 .. category:
 .. link: 
 .. description: This content was pulled from an interview from 60 minutes.
