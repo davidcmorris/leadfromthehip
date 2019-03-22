@@ -1,8 +1,8 @@
 <!--
-.. title: PJ Voigt and Alex Goldman on Job Hopping
+.. title: PJ Voigt and Alex Goldman on Enticement
 .. slug: reply_all
 .. date: 2014-12-10 03:39:00 UTC
-.. tags: job_hopping
+.. tags: enticement
 .. category:
 .. link: 
 .. description: This post is pulled from the Reply All podcast.
