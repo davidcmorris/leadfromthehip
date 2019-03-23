@@ -21,7 +21,7 @@ Paper is available at www.hoganassessments.com.
 ## Bad Leaders are:
 - Arrogant
 - Manipulative
-- Emotional Volatile
+- Emotionally Volatile
 - Micromanaging
 - Passive Aggressive
 - Distrustful of Others
