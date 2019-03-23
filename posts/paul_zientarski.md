@@ -9,5 +9,10 @@
 .. type: text
 -->
 In reference to what people want their kids to know and be able to do when leaving high school:
-> We want them to be able to communicate, able to work in small teams and problem solve, and to be risk takers.
-(From John Ratey's book Spark)
+> We want them to be able to:
+- Communicate,  
+- Able to work in small teams,  
+- Problem solve,  
+- And to be risk takers.
+
+*From John Ratey's book Spark*
