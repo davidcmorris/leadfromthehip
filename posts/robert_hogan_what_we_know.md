@@ -2,7 +2,7 @@
 .. title: Robert Hogan on What We Know About Leadership
 .. slug: robert_hogan_what_we_know
 .. date: 2019-03-23 08:20:00 UTC
-.. tags: compentencies
+.. tags: competencies
 .. category:
 .. link: 
 .. description: Content pulled from paper titled, What We Know About Leadership by Robert Hogan and Robert Kaiser.
