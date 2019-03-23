@@ -31,6 +31,7 @@ Can't wait to read the book, it's next on my Kindle queue.
 #### How can we change or improve the culture where we work?
 *As an individual contributor:* 
 - You probably can’t. Best thing to do is leave if it is a toxic culture.  
+
 *As a leader:* 
 - Figure out where you are and where you want to be
 - Meet with everybody and start by listening to why things are they way they are
