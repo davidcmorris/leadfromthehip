@@ -33,9 +33,9 @@ Can't wait to read the book, it's next on my Kindle queue.
 - You probably can’t. Best thing to do is leave if it is a toxic culture.  
 
 *As a leader:* 
-- Figure out where you are and where you want to be
-- Meet with everybody and start by listening to why things are they way they are
-- Identify the behaviors that will help you get there
-- Constantly communicate them and recognize and reward the right behaviors when they occur
+- Figure out where you are and where you want to be,  
+- Meet with everybody and start by listening to why things are they way they are,  
+- Identify the behaviors that will help you get there,  
+- Constantly communicate them and recognize and reward the right behaviors when they occur,  
 - Lastly, be human, own mistakes and shortcomings.Hold after action reviews and be transparent
-and truthful as to why things failed. Empower the owner to fix his or her own mistakes.
+and truthful as to why things failed. Empower the owner to fix his or her own mistakes.  
