@@ -10,8 +10,6 @@ Paper is available at www.hoganassessments.com.
 .. type: text
 -->
 
-# Robert Hogan on [What We Know About Leadership](https://www.hoganassessments.com/wp-content/uploads/2014/08/What-We-Know_F_0.pdf) 
-
 ## Defines leadership as:
 - The ability to build an maintain a team that can outperform the competition
 ## Good Leaders have:
@@ -26,3 +24,5 @@ Paper is available at www.hoganassessments.com.
 - Micromanaging
 - Passive Aggressive
 - Distrustful of Others
+
+[Click Here for PDF](https://www.hoganassessments.com/wp-content/uploads/2014/08/What-We-Know_F_0.pdf)
