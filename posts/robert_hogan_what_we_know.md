@@ -25,4 +25,4 @@ Paper is available at www.hoganassessments.com.
 - Passive Aggressive
 - Distrustful of Others
 
-[Click Here for PDF](https://www.hoganassessments.com/wp-content/uploads/2014/08/What-We-Know_F_0.pdf)
+###[Click here for the full paper](https://www.hoganassessments.com/wp-content/uploads/2014/08/What-We-Know_F_0.pdf)
