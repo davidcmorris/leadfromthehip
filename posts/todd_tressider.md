@@ -9,8 +9,8 @@
 .. type: text
 -->
 
-Side Hustle Nation host [Nick Loper]((https://www.sidehustlenation.com/about/)
-interviews [Todd Tressider]((https://financialmentor.com/)
+Side Hustle Nation host [Nick Loper](https://www.sidehustlenation.com/about/)
+interviews [Todd Tressider](https://financialmentor.com/)
 on [Episode 327:  How to Get Unstuck:
 6 Levers to Pull to Level Up Your Business](https://www.sidehustlenation.com/get-unstuck/)
 
