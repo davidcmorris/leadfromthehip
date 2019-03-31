@@ -9,7 +9,7 @@
 .. type: text
 -->
 
-Brett Mckay had Daniel Coyle on his Art of Manliness Podcst #388 to talk about his new book, The Culture Code.
+Brett Mckay had [Daniel Coyle](http://danielcoyle.com/) on his Art of Manliness Podcst #388 to talk about his new book, The Culture Code.
 This interview resonated with me and my experience working in corporate HR jobs over the past 20 years.
 Can't wait to read the book, it's next on my Kindle queue.
 
