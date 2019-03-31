@@ -8,6 +8,7 @@
 .. description: This post was pulled from the Econtalk podcast hosted by Russ Roberts.
 .. type: text
 -->
+
 Econtalk for September 8, 2014, [James Otteson](https://en.wikipedia.org/wiki/James_Otteson) on the End of Socialism:
 
 James' central arguments are against Socialism and in favor of a decentralized notion of Capitalism
