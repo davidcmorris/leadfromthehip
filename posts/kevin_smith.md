@@ -10,7 +10,7 @@
 -->
 
 In Jay and Silent Bob Get Old 10: Mewes Shook Me All Night Long, a podcast inspired to keep his close friend
-and movie sidekick Jason Mewes on-the-wagon, Kevin Smith breaks from the usual comedic routine to talk about
+and movie sidekick Jason Mewes on-the-wagon, [Kevin Smith](https://en.wikipedia.org/wiki/Kevin_Smith) breaks from the usual comedic routine to talk about
 what he's learned over the years as a director and how his personal style of leadership has progressed.
 
 > I could never understand when I was younger and listening to older directors, how much control they gave up.
