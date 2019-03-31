@@ -8,7 +8,7 @@
 .. description: Pulled from an interview from the Art of Charm podcast
 .. type: text
 -->
-From The Art of Charm podcast Episode 336:  Seth Godin, Conquering the Dip at ~36 minute mark:
+From The Art of Charm podcast Episode 336:  [Seth Godin](https://www.sethgodin.com/), Conquering the Dip at ~36 minute mark:
 > Serving people doesn't mean giving them a discount.
 Serving people means treating them with respect.
 Serving people means telling them a story they need to hear.
