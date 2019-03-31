@@ -9,7 +9,7 @@
 .. type: text
 -->
 In [The Art of Manliness Podcast #373](https://www.artofmanliness.com/articles/leaders-reading-list/),
-Brett McKay interviews Admiral James Stavridis about his new book,
+Brett McKay interviews [Admiral James Stavridis](https://en.wikipedia.org/wiki/James_G._Stavridis) about his new book,
 [The Leader’s Bookshelf](https://www.amazon.com/Leaders-Bookshelf-James-Stavridis/dp/1682471799/ref=sr_1_1?ie=UTF8&qid=1517272350&sr=8-1&keywords=the+leader%27s+bookshelf).  
 
 Terrific interview filled with many stories of great military leaders and the books they’ve read.
