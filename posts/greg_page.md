@@ -8,7 +8,7 @@
 .. description: From an interview on EconTalk hosted by Russ Roberts.
 .. type: text
 -->
-EconTalk's Russ Roberts interviews former CEO of Cargill and asks him,  
+EconTalk's Russ Roberts interviews [Greg Page](https://en.wikipedia.org/wiki/Gregory_R._Page), former CEO of Cargill and asks him,  
 *Any particular lessons you learned from going into that chair of CEO?*
 
 > ...a sense of nakedness.  I think each word and each gesture is over analyzed by a large
