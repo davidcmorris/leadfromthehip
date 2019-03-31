@@ -10,7 +10,7 @@
 -->
 
 During TWIT 293: Undressed for your comfort, a podcast hosted by Leo Laporte,
-Kevin Rose was asked about 'lessons learned' during his six years at his first major start-up digg.com.
+[Kevin Rose](https://www.kevinrose.com/) was asked about 'lessons learned' during his six years at his first major start-up digg.com.
 Specifically, what had he learned that will help him in his latest venture:
 
 > In the early days of Digg, we started bringing on employees.
