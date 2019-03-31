@@ -8,7 +8,7 @@
 .. description: Pulled from a documentary on Bill Withers.
 .. type: text
 -->
-I recently watched a documentary on the musician Bill Withers.
+I recently watched a documentary on the musician [Bill Withers](http://www.billwithers.com/).
 Toward the end of it, he shared his views on realizing your potential:
 > We're all accidents at birth. We don't get to choose what we look like,
 how gifted we're going to be, or how tall and strong we are.
