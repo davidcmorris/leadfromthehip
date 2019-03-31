@@ -10,7 +10,7 @@
 -->
 
 During the Mac Power Users podcast, episode 415, hosted by David Sparks and Katie Floyd,
-guest John Siracusa shared his insight on what it takes to advance from an individual contributor into management.
+guest [John Siracusa](http://hypercritical.co/about/) shared his insight on what it takes to advance from an individual contributor into management.
 What follows is not a direct quote from John.
 Instead, I've taken some liberty in summarizing his main points:
 > We all start out in the trenches learning our individual jobs
