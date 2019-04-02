@@ -1,7 +1,7 @@
 <!--
 .. title: Steve Arneson on What is Leadership?
 .. slug: steve_arneson_what_is_leadership
-.. date: 2013-09-01 05:05:00 UTC
+.. date: 2019-04-02 06:25:00 UTC
 .. tags: competencies, defining
 .. category:
 .. link: 
