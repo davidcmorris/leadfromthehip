@@ -9,13 +9,13 @@
 .. type: text
 -->
 
-From his 2010 book titled, [Bootstrap Leadership](https://www.amazon.com/Bootstrap-Leadership-Ways-Break-Charge-ebook/dp/B00F9FL5VE/ref=sr_1_1?keywords=bootstrap+leadership&qid=1554226002&s=gateway&sr=8-1), [Steve Arneson](https://arnesonleadership.com/about) lists his top competencies every leader should have:  
-- Credibility 
-- Vision 
-- Integrity 
+From his 2010 book titled, [Bootstrap Leadership](https://www.amazon.com/Bootstrap-Leadership-Ways-Break-Charge-ebook/dp/B00F9FL5VE/ref=sr_1_1?keywords=bootstrap+leadership&qid=1554226002&s=gateway&sr=8-1), [Steve Arneson](https://arnesonleadership.com/about) lists his top competencies he feels every leader should have:  
+- Credibility   
+- Vision   
+- Integrity  
 - Courage  
-- Passion 
-- Optimisim 
+- Passion  
+- Optimisim  
 
 Steve recommends that every leader write down their personal definition of what leadership means to them.
 Here is his:
