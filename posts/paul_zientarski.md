@@ -10,7 +10,7 @@
 -->
 
 In reference to what people want their kids to know and be able to do when leaving high school:
-> We want them to be able to:
+> We want them to be able to:  
 > - Communicate,  
 > - Able to work in small teams,  
 > - Problem solve,  
