@@ -1,5 +1,5 @@
 <!--
-.. title: Edgar Schein on What Leadership Means to Him?
+.. title: Edgar Schein on What Leadership Means to Him
 .. slug: edgar-schein-leadership
 .. date: 2019-04-14 01:25:00 UTC
 .. tags: leadership
