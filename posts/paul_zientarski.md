@@ -8,6 +8,7 @@
 .. description: Excerpt pulled from the Book Spark by John Ratey.
 .. type: text
 -->
+
 In reference to what people want their kids to know and be able to do when leaving high school:
 > We want them to be able to:
 > - Communicate,  
