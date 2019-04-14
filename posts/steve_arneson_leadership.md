@@ -1,8 +1,8 @@
 <!--
-.. title: Steve Arneson on What is Leadership?
-.. slug: steve_arneson_what_is_leadership
+.. title: Steve Arneson on What Leadership Means to Him?
+.. slug: steve_arneson_leadership
 .. date: 2019-04-02 06:25:00 UTC
-.. tags: competencies, defining
+.. tags: competencies, leadership
 .. category:
 .. link: 
 .. description: Pulled from Steve's book - Bootstrap Leadership:  50 ways to break out, take charge, and move up.
