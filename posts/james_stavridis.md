@@ -1,8 +1,8 @@
 <!--
-.. title: James Stavridis on Military Leadership Behaviors
-.. slug: james_stavridis
+.. title: James Stavridis on What Leadership Means to Him?
+.. slug: james_stavridis_leadership
 .. date: 2018-01-30 07:32:00 UTC
-.. tags: behaviors
+.. tags: competencies, leadership
 .. category:
 .. link: 
 .. description: This post describes why Lead from the Hip exists.
