@@ -1,5 +1,5 @@
 <!--
-.. title: Steve Arneson on What Leadership Means to Him?
+.. title: Steve Arneson on What Leadership Means to Him
 .. slug: steve_arneson_leadership
 .. date: 2019-04-02 06:25:00 UTC
 .. tags: competencies, leadership
