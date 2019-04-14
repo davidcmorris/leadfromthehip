@@ -9,4 +9,5 @@
 .. type: text
 -->
 
+From his book, [Humble Leadership](https://www.amazon.com/Humble-Leadership-Power-Relationships-Openness/dp/1523095385/ref=sr_1_1?keywords=humble+leadership&qid=1555231135&s=gateway&sr=8-1), Edgar Schein defines leadership as:
 > "Leadership" is wanting to do something *new* and *better*, and getting others to go along.
