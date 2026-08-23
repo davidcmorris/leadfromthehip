@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:ital,wght@0,500;1,500&display=swap");
+@import "tailwindcss";
+
+:root {
+	--paper: #F1F5F4;
+	--surface: #FFFFFF;
+	--surface-2: #E9EFEE;
+	--ink: #152529;
+	--muted: #5B7075;
+	--faint: #8A9B9E;
+	--rule: #D6E0DE;
+	--rule-strong: #B9C8C6;
+	--petrol: #0C6B67;
+	--petrol-soft: #D8EAE8;
+	--brass: #9E6518;
+	--brass-soft: #F2E6D2;
+	--flag: #9C3A3D;
+	--flag-soft: #F3DEDE;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--paper: #0C1517;
+		--surface: #121E20;
+		--surface-2: #182629;
+		--ink: #E2EAE9;
+		--muted: #94A8AA;
+		--faint: #6C8083;
+		--rule: #233335;
+		--rule-strong: #33474A;
+		--petrol: #4CBAB2;
+		--petrol-soft: #123230;
+		--brass: #D9A257;
+		--brass-soft: #2E2415;
+		--flag: #DE8083;
+		--flag-soft: #31191A;
+	}
+}
+
+@theme {
+	--color-paper: var(--paper);
+	--color-surface: var(--surface);
+	--color-surface-2: var(--surface-2);
+	--color-ink: var(--ink);
+	--color-muted: var(--muted);
+	--color-faint: var(--faint);
+	--color-rule: var(--rule);
+	--color-rule-strong: var(--rule-strong);
+	--color-petrol: var(--petrol);
+	--color-petrol-soft: var(--petrol-soft);
+	--color-brass: var(--brass);
+	--color-brass-soft: var(--brass-soft);
+	--color-flag: var(--flag);
+	--color-flag-soft: var(--flag-soft);
+
+	--font-display: "Newsreader", Georgia, "Times New Roman", serif;
+	--font-body: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+	--font-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+
+@layer base {
+	body {
+		background: var(--paper);
+		color: var(--ink);
+		font-family: var(--font-body);
+		font-size: 17px;
+		line-height: 1.62;
+	}
+
+	h1, h2, h3, h4 {
+		font-family: var(--font-display);
+		font-weight: 500;
+		text-wrap: balance;
+		letter-spacing: -0.016em;
+	}
+}
+
+@layer utilities {
+	/* Body copy measure: design system caps prose width at 68 characters */
+	.measure {
+		max-width: 68ch;
+	}
+
+	.eyebrow {
+		font-family: var(--font-mono);
+		font-size: 11px;
+		font-weight: 500;
+		text-transform: uppercase;
+		letter-spacing: 0.13em;
+	}
+
+	.hero-h1 {
+		font-size: clamp(2.5rem, 5.9vw, 4.3rem);
+		line-height: 1.03;
+	}
+
+	.accent {
+		font-family: var(--font-display);
+		font-style: italic;
+		color: var(--petrol);
+	}
+
+	.pull-quote {
+		font-family: var(--font-display);
+		font-style: italic;
+	}
+
+	/* Marks a [SQUARE BRACKET] placeholder David has to fill personally */
+	.placeholder {
+		color: var(--flag);
+		font-style: italic;
+	}
+}

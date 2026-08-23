@@ -1,0 +1,16 @@
+---
+interface Props {
+	emphasized?: boolean;
+	class?: string;
+}
+const { emphasized = false, class: className = "" } = Astro.props;
+---
+<div
+	class:list={[
+		"bg-surface rounded-[3px] p-6",
+		emphasized ? "border-[1.5px] border-petrol" : "border border-rule",
+		className,
+	]}
+>
+	<slot />
+</div>

@@ -1,0 +1,144 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Hero from "../components/Hero.astro";
+import SectionHeader from "../components/SectionHeader.astro";
+import Card from "../components/Card.astro";
+import StageStrip from "../components/StageStrip.astro";
+import RepCard from "../components/RepCard.astro";
+import OfferCard from "../components/OfferCard.astro";
+---
+<BaseLayout
+	title="Lead From The Hip — leadership development that measures behavior"
+	description="Assessment-led leadership coaching that turns your dispositions into specific routines, then measures whether they stuck. For anyone who leads a team."
+>
+	<Hero
+		eyebrow="Leadership development · assessment · behavior"
+		standfirst="Under pressure, nobody leads from their training. They fall back on their defaults. This is a practice for finding out what your defaults actually cost you — and building the two or three routines that catch them."
+		primaryCta={{ label: "See how it works →", href: "#method" }}
+		secondaryCta={{ label: "Work with me", href: "/work-with-me" }}
+	>
+		You already lead from the hip.<br />
+		<span class="accent">The work is knowing what your hip does.</span>
+	</Hero>
+
+	<section class="max-w-[1080px] mx-auto px-6 py-12 border-t border-rule">
+		<SectionHeader
+			number="01"
+			title="Why the last thing you tried didn't stick"
+			lede="You have probably already done at least one of these. Here is why none of them changed your Thursday afternoon."
+		/>
+		<div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+			<Card>
+				<h3 class="text-lg mb-2">The report that named you accurately.</h3>
+				<p class="text-muted text-sm">
+					It was well-built and it was right about you. You nodded. It stung a little.
+					Then it went in a drawer, because a description of who you are is not an
+					instruction for what to do on Thursday.
+				</p>
+			</Card>
+			<Card>
+				<h3 class="text-lg mb-2">The advice that costs everyone the same.</h3>
+				<p class="text-muted text-sm">
+					"Run weekly one-to-ones." "Assume positive intent." Fine advice, priced at
+					zero — as though a structured weekly meeting costs a naturally organized
+					person and a naturally spontaneous one the same amount. It doesn't, and
+					pretending otherwise is why the resolution lasted nine days.
+				</p>
+			</Card>
+			<Card>
+				<h3 class="text-lg mb-2">The feedback that arrived once a year.</h3>
+				<p class="text-muted text-sm">
+					Aggregated, anonymized, delivered in a form your company chose, about a
+					period you can no longer remember. You didn't pick the raters. You never saw
+					whether anything you changed afterward registered with anyone.
+				</p>
+			</Card>
+		</div>
+		<p class="pull-quote measure text-ink text-xl">
+			Every one of those stops in the same place — at insight. Nothing in the standard
+			playbook is built to change what you actually do when you're tired and it's late in
+			the week.
+		</p>
+	</section>
+
+	<section id="method" class="max-w-[1080px] mx-auto px-6 py-12 border-t border-rule">
+		<SectionHeader
+			number="02"
+			title="The method"
+			lede="Four stages. The first two are diagnosis and take about a week. The third is where the work is. The fourth is the part almost nobody sells."
+		/>
+		<StageStrip />
+	</section>
+
+	<section class="max-w-[1080px] mx-auto px-6 py-12 border-t border-rule">
+		<SectionHeader
+			number="03"
+			title="What a rep actually looks like"
+			lede="Not a principle. Not a mindset. A specific thing you do, triggered by a specific moment, that takes under a minute and requires no change to your character."
+		/>
+		<RepCard />
+		<p class="text-muted text-sm mt-4 measure">
+			Thirty seconds of process. No new personality required. That is the entire design
+			principle — the rep has to be cheap enough that you still run it on the worst week
+			of the quarter.
+		</p>
+	</section>
+
+	<section class="max-w-[1080px] mx-auto px-6 py-12 border-t border-rule">
+		<SectionHeader number="04" title="Who this is for" lede="Two honest lists." />
+		<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+			<div>
+				<h3 class="text-lg mb-3">This works if you:</h3>
+				<ul class="list-disc list-inside text-ink flex flex-col gap-2 text-sm">
+					<li>Lead a team and have for at least a year</li>
+					<li>
+						Have already done a personality assessment and found it interesting but
+						inert
+					</li>
+					<li>
+						Are more interested in what to do on Tuesday than in what type you are
+					</li>
+					<li>
+						Would rather have a number at ninety days than a good feeling at the end
+						of a session
+					</li>
+				</ul>
+			</div>
+			<div>
+				<h3 class="text-lg mb-3">This is not for you if you:</h3>
+				<ul class="list-disc list-inside text-ink flex flex-col gap-2 text-sm">
+					<li>Want a certification, a framework to roll out, or a team offsite</li>
+					<li>Are looking for a diagnosis of someone else on your team</li>
+					<li>
+						Need clinical support — that is a different profession and I will say so
+						and refer
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section class="max-w-[1080px] mx-auto px-6 py-12 border-t border-rule">
+		<SectionHeader
+			number="05"
+			title="Work with me"
+			lede="Two ways in. Both include the ninety-day re-measure, because a change you can't evidence isn't one."
+		/>
+		<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+			<OfferCard
+				price="[PRICE]"
+				title="The Private 360"
+				description="A multi-rater feedback round you commission, on your timing, with raters you choose. The results come to you and only you — nothing enters an HR system, ever."
+				ctaLabel="See the full offer →"
+				ctaHref="/work-with-me#private-360"
+			/>
+			<OfferCard
+				price="[PRICE]"
+				title="Terrain & Route"
+				description="The full arc. Assessment, a ninety-minute debrief, a written route with two or three prescribed reps, and the ninety-day evidence check built into the price."
+				ctaLabel="See the full offer →"
+				ctaHref="/work-with-me#terrain-route"
+			/>
+		</div>
+	</section>
+</BaseLayout>

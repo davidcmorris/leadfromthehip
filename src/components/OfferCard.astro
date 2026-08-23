@@ -1,0 +1,71 @@
+---
+interface Props {
+	id?: string;
+	price: string;
+	duration?: string;
+	includes?: string;
+	title: string;
+	description: string;
+	bullets?: string[];
+	whoFor?: string;
+	ctaLabel: string;
+	ctaHref: string;
+}
+const {
+	id,
+	price,
+	duration,
+	includes,
+	title,
+	description,
+	bullets = [],
+	whoFor,
+	ctaLabel,
+	ctaHref,
+} = Astro.props;
+const isPlaceholderPrice = price.startsWith("[");
+---
+<div id={id} class="bg-surface border-[1.5px] border-petrol rounded-[3px] p-6 flex flex-col gap-4">
+	<p
+		class:list={[
+			"font-mono text-2xl tabular-nums",
+			isPlaceholderPrice ? "text-flag italic" : "text-brass",
+		]}
+	>
+		{price}
+	</p>
+	<h3 class="text-2xl">{title}</h3>
+	{(duration || includes) && (
+		<dl class="text-sm text-muted grid grid-cols-[auto_1fr] gap-x-3 gap-y-1">
+			{duration && (
+				<>
+					<dt class="eyebrow text-muted">Duration</dt>
+					<dd>{duration}</dd>
+				</>
+			)}
+			{includes && (
+				<>
+					<dt class="eyebrow text-muted">Includes</dt>
+					<dd>{includes}</dd>
+				</>
+			)}
+		</dl>
+	)}
+	<p class="text-ink measure">{description}</p>
+	{bullets.length > 0 && (
+		<ul class="list-disc list-inside text-ink flex flex-col gap-1">
+			{bullets.map((b) => <li set:html={b} />)}
+		</ul>
+	)}
+	{whoFor && (
+		<p class="text-muted text-sm">
+			<span class="font-medium text-ink">Who it's for: </span>{whoFor}
+		</p>
+	)}
+	<a
+		href={ctaHref}
+		class="inline-block bg-petrol text-paper px-4 py-2 rounded-[3px] font-medium w-fit hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-petrol"
+	>
+		{ctaLabel}
+	</a>
+</div>

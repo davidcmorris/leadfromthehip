@@ -1,0 +1,10 @@
+---
+import NewsletterCapture from "./NewsletterCapture.astro";
+const year = new Date().getFullYear();
+---
+<footer class="border-t border-rule mt-16">
+	<div class="max-w-[1080px] mx-auto px-6 py-10">
+		<NewsletterCapture />
+		<p class="text-xs text-muted mt-8">© {year} Lead From The Hip.</p>
+	</div>
+</footer>
