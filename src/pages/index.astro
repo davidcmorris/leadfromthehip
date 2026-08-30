@@ -5,7 +5,6 @@ import SectionHeader from "../components/SectionHeader.astro";
 import Card from "../components/Card.astro";
 import StageStrip from "../components/StageStrip.astro";
 import RepCard from "../components/RepCard.astro";
-import OfferCard from "../components/OfferCard.astro";
 ---
 <BaseLayout
 	title="Lead From The Hip — leadership development that measures behavior"
@@ -24,8 +23,8 @@ import OfferCard from "../components/OfferCard.astro";
 	<section class="max-w-[1080px] mx-auto px-6 py-12 border-t border-rule">
 		<SectionHeader
 			number="01"
-			title="Why the last thing you tried didn't stick"
-			lede="You have probably already done at least one of these. Here is why none of them changed your Thursday afternoon."
+			title="Why studying it never made it stick"
+			lede="You have probably already done at least one of these. All three are study. None of them is practice, and none of them ever put you under real resistance."
 		/>
 		<div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
 			<Card>
@@ -56,18 +55,17 @@ import OfferCard from "../components/OfferCard.astro";
 			</Card>
 		</div>
 		<p class="pull-quote measure text-ink text-xl">
-			Every one of those stops in the same place — at insight. The webinar didn't survive
-			Wednesday for the same reason the report went in a drawer — nothing in the standard
-			playbook is built to change what you actually do when you're tired and it's late in
-			the week.
+			Every one of those was study. Necessary, but never enough on its own — what was
+			missing was practice, and hard training: practice against real resistance, not just
+			repetition when it's easy.
 		</p>
 	</section>
 
 	<section id="method" class="max-w-[1080px] mx-auto px-6 py-12 border-t border-rule">
 		<SectionHeader
 			number="02"
-			title="The map"
-			lede="Four stages. The first two are diagnosis and take about a week. The third is where the work is. The fourth is the part almost nobody sells."
+			title="The method"
+			lede="Three stages, borrowed from Musonius Rufus. Applied to the habits you already run on, how you act with the people around you, and the judgment that tells you whether either one is working."
 		/>
 		<StageStrip />
 	</section>
@@ -76,7 +74,7 @@ import OfferCard from "../components/OfferCard.astro";
 		<SectionHeader
 			number="03"
 			title="What a rep actually looks like"
-			lede="Not a principle. Not a mindset. A specific thing you do, cued by a specific moment, that takes under a minute and requires no change to your character."
+			lede="Not a principle. Not a mindset. A specific thing you do, cued by a specific moment, that takes under a minute and requires no change to your character. This is what gets rehearsed in practice, then run for real in hard training."
 		/>
 		<RepCard />
 		<p class="text-muted text-sm mt-4 measure">
@@ -92,25 +90,21 @@ import OfferCard from "../components/OfferCard.astro";
 			<div>
 				<h3 class="text-lg mb-3">This works if you:</h3>
 				<ul class="list-disc list-inside text-ink flex flex-col gap-2 text-sm">
-					<li>Lead a team and have for at least a year</li>
+					<li>Have tried to change a habit before and watched it not stick</li>
+					<li>Care about how you come across to people, not just what you meant to do</li>
 					<li>
-						Have already done a personality assessment and found it interesting but
-						inert
+						Are willing to practice something small and specific, on purpose, even
+						when it's inconvenient
 					</li>
-					<li>
-						Are more interested in what to do on Tuesday than in what type you are
-					</li>
-					<li>
-						Would rather have a number at ninety days than a good feeling at the end
-						of a session
-					</li>
+					<li>Would rather find out whether it worked than feel good about having tried</li>
 				</ul>
 			</div>
 			<div>
 				<h3 class="text-lg mb-3">This is not for you if you:</h3>
 				<ul class="list-disc list-inside text-ink flex flex-col gap-2 text-sm">
-					<li>Want a certification, a framework to roll out, or a team offsite</li>
-					<li>Are looking for a diagnosis of someone else on your team</li>
+					<li>Want a label more than a behavior to change</li>
+					<li>Are looking for a diagnosis of someone else, not yourself</li>
+					<li>Want a program to roll out to a team or an organization</li>
 					<li>
 						Need clinical support — that is a different profession and I will say so
 						and refer
@@ -123,24 +117,28 @@ import OfferCard from "../components/OfferCard.astro";
 	<section class="max-w-[1080px] mx-auto px-6 py-12 border-t border-rule">
 		<SectionHeader
 			number="05"
-			title="Work with me"
-			lede="Two ways in. Both include the ninety-day re-measure, because a change you can't evidence isn't one."
+			title="Where the study happens"
+			lede="A pattern, a belief, one specific thing to try — that's a post, most weeks, on the Substack. Reading it isn't the work. Running it is."
 		/>
-		<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-			<OfferCard
-				price="[PRICE]"
-				title="My360"
-				description="A multi-rater feedback round you commission, on your timing, with raters you choose. The results come to you and only you — nothing enters an HR system, ever."
-				ctaLabel="See the full offer →"
-				ctaHref="/work-with-me#private-360"
-			/>
-			<OfferCard
-				price="[PRICE]"
-				title="The Lot"
-				description="The full arc. Assessment, a ninety-minute debrief, a written route with two or three prescribed reps, and the ninety-day evidence check built into the price."
-				ctaLabel="See the full offer →"
-				ctaHref="/work-with-me#terrain-route"
-			/>
-		</div>
+		<a
+			href="https://substack.com/@leadfromthehip"
+			class="inline-block bg-petrol text-paper px-5 py-3 rounded-[3px] font-medium hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-petrol"
+		>
+			Read the Substack →
+		</a>
+	</section>
+
+	<section class="max-w-[1080px] mx-auto px-6 py-12 border-t border-rule">
+		<SectionHeader
+			number="06"
+			title="If you want more"
+			lede="Most of what's here is free — the method, the examples, the Substack. From time to time I take on a handful of clients who want the full version: an assessment, a written plan, and the ninety-day proof that it worked."
+		/>
+		<a
+			href="/work-with-me"
+			class="inline-block bg-petrol text-paper px-5 py-3 rounded-[3px] font-medium hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-petrol"
+		>
+			Work with me →
+		</a>
 	</section>
 </BaseLayout>
