@@ -1,60 +1,25 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Hero from "../components/Hero.astro";
-import OfferCard from "../components/OfferCard.astro";
 ---
 <BaseLayout
 	title="Work with me — Lead From The Hip"
-	description="Two engagements, both bought by the leader and both ending in a ninety-day behavioral re-measure. My360 and full assessment-to-route coaching."
+	description="Occasional one-on-one coaching, bought by you, ending in a ninety-day behavioral re-measure."
 >
 	<Hero
 		eyebrow="Engagements"
-		standfirst="Everything here is bought by the leader, not by their company. You choose the timing, you own the data, and nothing produced in an engagement enters anyone's personnel file."
+		standfirst="This isn't the front door — the Substack and the method are. But from time to time I take on someone who wants the full version: an assessment, a written plan, and the ninety-day proof it worked. You own it, not your employer, and nothing here is a substitute for the reps you'd otherwise be running yourself."
 	>
-		Two ways in. <span class="accent">Both end with evidence.</span>
+		If you want more. <span class="accent">Here's what that looks like.</span>
 	</Hero>
 
 	<section class="max-w-[1080px] mx-auto px-6 py-12 border-t border-rule">
-		<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-			<OfferCard
-				id="private-360"
-				price="[PRICE — brief suggests $450–750]"
-				duration="About three weeks end to end"
-				includes="Rater protocol · administration · themed report · 45-minute readout"
-				title="My360"
-				description="Almost every 360 you have ever been given was commissioned by your employer. They chose the instrument, the timing, and often the raters. The results went into a system you don't control, at a moment that suited someone else's calendar. There is no reason it has to work that way. A 360 is only a corporate instrument because companies were the ones with the budget. This one is yours. You commission it, you nominate the raters, you pick the moment. I administer it, aggregate the responses, and theme the comments. You never see raw responses and neither does anyone else — a four-rater minimum per group protects anonymity, and I tell your raters exactly that when I invite them."
-				bullets={[
-					"A structured behavioral instrument, not a personality test",
-					"Four to six raters you nominate, across the groups you care about",
-					"Themed verbatim comments — never quoted in a way that identifies a rater",
-					"A 45-minute readout focused on what to do, not on what the numbers mean",
-					"Not a one-and-done event — add raters or refresh the report whenever you want another read",
-					"A file that exists in exactly one place: with you",
-				]}
-				whoFor="Anyone who suspects the people around them are being kind rather than accurate. If you are hard to rattle and pleasant to work for, you are probably getting less honest feedback than you think."
-				ctaLabel="Book a call →"
-				ctaHref="[BOOKING URL]"
-			/>
-			<OfferCard
-				id="terrain-route"
-				price="[PRICE — brief suggests $1,800–3,000]"
-				duration="Ninety days"
-				includes="Assessment battery · 90-minute debrief · written route · 90-day re-measure"
-				title="The Lot"
-				subtitle="Everything — the assessment, the route, and the ninety-day proof it worked."
-				description="The full arc, and the reason the practice exists. We start by mapping your terrain — the dispositions that make some leadership behaviors cheap for you and others permanently expensive. Then we find the two or three beliefs that fire when you are under load, because those are what actually drive your behavior on a bad Thursday, not your intentions on a good Monday. Then you get a route: two or three reps, each with a cue, a slot, and a script, designed around your terrain rather than in spite of it. Not more discipline. Better scaffolding. Ninety days later we measure. Not the personality — that hasn't moved and it isn't supposed to. The behavior, rated by the people who work for you, compared to where you started."
-				bullets={[
-					'A validated assessment battery, professionally interpreted <span class="placeholder">(Certifications: [DAVID — list your certifications here])</span>',
-					"A 90-minute debrief that spends most of its time on what to do",
-					"A written route: two or three prescribed reps, with cues and scripts",
-					"A ninety-day behavioral re-measure, included — not sold separately",
-					"A short written comparison of where you started and where you landed",
-				]}
-				whoFor="Leaders who have done the assessment thing before, found it accurate, and watched it change nothing."
-				ctaLabel="Book a call →"
-				ctaHref="[BOOKING URL]"
-			/>
-		</div>
+		<a
+			href="[BOOKING URL]"
+			class="inline-block bg-petrol text-paper px-5 py-3 rounded-[3px] font-medium hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-petrol"
+		>
+			Book a call →
+		</a>
 	</section>
 
 	<section class="max-w-[1080px] mx-auto px-6 py-12 border-t border-rule">
@@ -107,19 +72,15 @@ import OfferCard from "../components/OfferCard.astro";
 				<h3 class="text-lg mb-1">What if the ninety-day measure shows nothing changed?</h3>
 				<p class="text-ink text-sm">
 					Then it shows nothing changed, and you find out from data instead of from a
-					feeling. That is the point of including it.{" "}
-					<span class="placeholder">
-						[DAVID — decide and state your policy here: a second cycle at reduced
-						cost, a diagnostic session, or nothing. Pick one and commit.]
-					</span>
+					feeling. That is the point of including it.
 				</p>
 			</div>
 			<div>
 				<h3 class="text-lg mb-1">Which assessments do you use?</h3>
-				<p class="placeholder border border-dashed border-flag bg-flag-soft rounded-[3px] p-4 text-sm">
-					[DAVID — name your certifications here in plain terms. Do not reproduce
-					publisher scale names or interpretive content; see
-					docs/08-licensing-guardrails.md.]
+				<p class="text-ink text-sm">
+					The Hogan Assessment suite — the Hogan Personality Inventory (HPI), the
+					Hogan Development Survey (HDS), and the Motives, Values, Preferences
+					Inventory (MVPI). Certified directly by Hogan in 2020.
 				</p>
 			</div>
 			<div>
