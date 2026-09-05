@@ -3,7 +3,6 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import Hero from "../components/Hero.astro";
 import SectionHeader from "../components/SectionHeader.astro";
 import Card from "../components/Card.astro";
-import StageStrip from "../components/StageStrip.astro";
 import RepCard from "../components/RepCard.astro";
 ---
 <BaseLayout
@@ -11,7 +10,7 @@ import RepCard from "../components/RepCard.astro";
 	description="Assessment-led leadership coaching that turns your dispositions into specific routines, then measures whether they stuck. For anyone who leads a team."
 >
 	<Hero
-		eyebrow="Leader development · assessment · performance coaching"
+		eyebrow="Development · assessment · coaching"
 		standfirst="Knowledge is cheap. Behavior is everything. Success requires getting in more reps at doing the right things until they become habit. That's the game: Pick the two or three behaviors that actually cost you, then practice them relentlessly. Not until you get them right — until you can't get them wrong."
 		primaryCta={{ label: "See how it works →", href: "#method" }}
 		secondaryCta={{ label: "Work with me", href: "/work-with-me" }}
@@ -56,25 +55,110 @@ import RepCard from "../components/RepCard.astro";
 		</div>
 		<p class="pull-quote measure text-ink text-xl">
 			Every one of those was study. Necessary, but never enough on its own — what was
-			missing was practice, and hard training: practice against real resistance, not just
-			repetition when it's easy.
+			missing was practice against real resistance, not just repetition when it's easy.
 		</p>
 	</section>
 
 	<section id="method" class="max-w-[1080px] mx-auto px-6 py-12 border-t border-rule">
 		<SectionHeader
 			number="02"
-			title="The method"
-			lede="Three levels of practice, borrowed from Stoic philosophy. Applied to the behaviors actually costing you."
+			title="One piece of advice"
+			lede="Ask one question of them. Ask one question of yourself. Repeat until something changes."
 		/>
-		<StageStrip />
+
+		<div class="bg-surface border-[1.5px] border-petrol rounded-[3px] p-6 flex flex-col gap-5 mb-6">
+			<p class="eyebrow text-petrol">Ask someone you work with</p>
+			<p class="text-xl md:text-2xl font-medium text-ink measure">
+				"If you could give me one piece of advice that would make me more effective, what
+				would it be?"
+			</p>
+			<div class="grid grid-cols-[3.5rem_1fr] gap-x-3 gap-y-1 border-t border-rule pt-4">
+				<span class="eyebrow text-brass">Then</span>
+				<p class="text-ink font-medium">"What have you seen that makes you say that?"</p>
+				<span></span>
+				<p class="text-muted text-sm measure">
+					Advice alone isn't actionable — "be more decisive" tells you nothing about
+					Monday. The second question turns their advice back into the thing they
+					actually saw, which is the part you can work on.
+				</p>
+			</div>
+		</div>
+
+		<div class="mb-8">
+			<p class="eyebrow text-muted mb-3">How to run it</p>
+			<div class="flex flex-col">
+				<div class="grid grid-cols-[2.5rem_1fr] gap-x-3 py-3 border-t border-rule">
+					<span class="font-mono text-sm text-muted tabular-nums">01</span>
+					<p class="text-ink text-sm">
+						<span class="font-medium">Don't schedule it.</span> This is a hallway
+						question, not a meeting. The moment it needs an invite, it stops happening.
+					</p>
+				</div>
+				<div class="grid grid-cols-[2.5rem_1fr] gap-x-3 py-3 border-t border-rule">
+					<span class="font-mono text-sm text-muted tabular-nums">02</span>
+					<p class="text-ink text-sm">
+						<span class="font-medium">Say nothing back but thank you.</span> No
+						explaining, no context, no "well, the reason I did that." Defending it once
+						teaches them not to answer next time.
+					</p>
+				</div>
+				<div class="grid grid-cols-[2.5rem_1fr] gap-x-3 py-3 border-t border-rule">
+					<span class="font-mono text-sm text-muted tabular-nums">03</span>
+					<p class="text-ink text-sm">
+						<span class="font-medium">Ask five people, not one.</span> One answer is an
+						opinion. The same answer from three people is your reputation.
+					</p>
+				</div>
+				<div class="grid grid-cols-[2.5rem_1fr] gap-x-3 py-3 border-t border-b border-rule">
+					<span class="font-mono text-sm text-muted tabular-nums">04</span>
+					<p class="text-ink text-sm">
+						<span class="font-medium">Ask again in ninety days.</span> If the advice has
+						changed, you have. If it hasn't, you haven't.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="mb-8">
+			<h3 class="text-xl mb-1">The other half</h3>
+			<p class="text-muted text-sm mb-4 measure">
+				The same question, turned inward. Two lines in a notebook — that's the whole
+				practice.
+			</p>
+			<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+				<div class="bg-surface border border-rule rounded-[3px] p-5">
+					<div class="flex justify-between eyebrow text-brass mb-2">
+						<span>Every night</span><span>2 min</span>
+					</div>
+					<p class="text-ink text-sm">
+						What happened today that I'm still thinking about — and what does it tell
+						me about how I'm leading?
+					</p>
+				</div>
+				<div class="bg-surface border border-rule rounded-[3px] p-5">
+					<div class="flex justify-between eyebrow text-brass mb-2">
+						<span>Every Friday</span><span>5 min</span>
+					</div>
+					<p class="text-ink text-sm">
+						What is the one thing I'll do differently next week — and when exactly
+						will I do it?
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<p class="pull-quote measure text-ink text-lg">
+			One conversation won't change much. Neither will one week of writing. The gap
+			between how you see yourself and how others describe you when you're not in the
+			room only closes with repetition.
+		</p>
 	</section>
 
 	<section class="max-w-[1080px] mx-auto px-6 py-12 border-t border-rule">
 		<SectionHeader
 			number="03"
 			title="What a rep actually looks like"
-			lede="Not a principle. Not a mindset. A specific thing you do, cued by a specific moment, that takes under a minute and requires no change to your character. This is what gets rehearsed in practice, then run for real in hard training — not until you get it right, but until you can't get it wrong."
+			lede="Not a principle. Not a mindset. A specific thing you do, cued by a specific moment, that takes under a minute and requires no change to your character. This is what gets rehearsed when nothing's on the line, then run for real when something is — not until you get it right, but until you can't get it wrong."
 		/>
 		<RepCard />
 		<p class="text-muted text-sm mt-4 measure">
