@@ -1,0 +1,67 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Hero from "../components/Hero.astro";
+
+const lastUpdated = "September 2026";
+---
+<BaseLayout
+	title="Privacy — Lead From The Hip"
+	description="What this site collects, what it doesn't, and what happens to your data if you book a call or subscribe to the Substack."
+>
+	<Hero
+		eyebrow="Privacy"
+		standfirst="Short version: this site doesn't collect much. Here's the specific version."
+	>
+		What this site does <span class="accent">with your data.</span>
+	</Hero>
+
+	<section class="max-w-[1080px] mx-auto px-6 py-12 border-t border-rule">
+		<h2 class="text-2xl md:text-3xl mb-4">What this site collects</h2>
+		<p class="text-ink measure">
+			Nothing, directly. There's no analytics, no tracking pixels, no
+			cookies, and no forms on this site. There's nothing here to opt out
+			of, because nothing is being gathered in the first place.
+		</p>
+	</section>
+
+	<section class="max-w-[1080px] mx-auto px-6 py-12 border-t border-rule">
+		<h2 class="text-2xl md:text-3xl mb-4">If you book a call</h2>
+		<p class="text-ink measure">
+			The "Book a call" button hands you off to Calendly. Whatever you
+			enter there — name, email, whatever you write in the notes — is
+			collected and handled by Calendly, not by this site. Their policy is
+			at{" "}
+			<a
+				href="https://calendly.com/privacy"
+				class="text-petrol underline hover:opacity-80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-petrol"
+			>
+				calendly.com/privacy
+			</a>.
+		</p>
+	</section>
+
+	<section class="max-w-[1080px] mx-auto px-6 py-12 border-t border-rule">
+		<h2 class="text-2xl md:text-3xl mb-4">If you follow the Substack</h2>
+		<p class="text-ink measure">
+			Following or subscribing happens on Substack's platform. They collect
+			your email to deliver posts, and that relationship is governed by
+			their policy, not this site's — at{" "}
+			<a
+				href="https://substack.com/privacy"
+				class="text-petrol underline hover:opacity-80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-petrol"
+			>
+				substack.com/privacy
+			</a>.
+		</p>
+	</section>
+
+	<section class="max-w-[1080px] mx-auto px-6 py-12 border-t border-rule">
+		<h2 class="text-2xl md:text-3xl mb-4">Changes</h2>
+		<p class="text-ink measure">
+			If that ever changes — an analytics tool, a contact form, anything
+			that collects something new — this page gets updated first, and
+			gets specific about what and why.
+		</p>
+		<p class="text-muted text-sm mt-4">Last updated: {lastUpdated}.</p>
+	</section>
+</BaseLayout>
