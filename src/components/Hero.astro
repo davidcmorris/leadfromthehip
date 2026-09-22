@@ -6,20 +6,17 @@ interface CTA {
 interface Props {
 	eyebrow: string;
 	standfirst: string;
-	standfirstPlaceholder?: boolean;
 	primaryCta?: CTA;
 	secondaryCta?: CTA;
 }
-const { eyebrow, standfirst, standfirstPlaceholder = false, primaryCta, secondaryCta } = Astro.props;
+const { eyebrow, standfirst, primaryCta, secondaryCta } = Astro.props;
 ---
 <section class="max-w-[1080px] mx-auto px-6 pt-16 pb-12">
 	<p class="eyebrow text-brass mb-4">{eyebrow}</p>
 	<h1 class="hero-h1 mb-6">
 		<slot />
 	</h1>
-	<p class:list={["measure text-lg mb-8", standfirstPlaceholder ? "placeholder" : "text-muted"]}>
-		{standfirst}
-	</p>
+	<p class="measure text-lg mb-8 text-muted">{standfirst}</p>
 	{(primaryCta || secondaryCta) && (
 		<div class="flex flex-wrap gap-4">
 			{primaryCta && (
