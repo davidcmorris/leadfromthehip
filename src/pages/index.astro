@@ -27,7 +27,7 @@ import RepCard from "../components/RepCard.astro";
 		<div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
 			<Card>
 				<h3 class="text-lg mb-2">The book with the secret sauce.</h3>
-				<p class="text-muted text-sm">
+				<p class="text-muted text-base">
 					Five pillars. Ten habits. One framework, guaranteed to work for every leader
 					who reads it — as though a weekly one-to-one costs a naturally organized
 					person and a naturally spontaneous one the same amount. It doesn't. There is
@@ -37,7 +37,7 @@ import RepCard from "../components/RepCard.astro";
 			</Card>
 			<Card>
 				<h3 class="text-lg mb-2">The class that ended in applause.</h3>
-				<p class="text-muted text-sm">
+				<p class="text-muted text-base">
 					Ninety minutes, a good facilitator, a room that nodded along together. The
 					applause at the end was real. By Monday, everyone ran the same meeting the
 					same way they always had.
@@ -45,7 +45,7 @@ import RepCard from "../components/RepCard.astro";
 			</Card>
 			<Card>
 				<h3 class="text-lg mb-2">The assessment that described you accurately.</h3>
-				<p class="text-muted text-sm">
+				<p class="text-muted text-base">
 					It was well-built and it was right about you. You nodded. It stung a little.
 					Then it went in a drawer, because a description of who you are is not an
 					instruction for what to do on Monday.
@@ -72,9 +72,10 @@ import RepCard from "../components/RepCard.astro";
 		</p>
 	</section>
 
-	<section id="method" class="max-w-[1080px] mx-auto px-6 py-12 border-t border-rule">
+	<div class="bg-petrol-soft/60 border-t border-rule">
+	<section id="method" class="max-w-[1080px] mx-auto px-6 py-12">
 		<SectionHeader
-			number="Exercise 01"
+			exercise="01"
 			title="Name what's getting in your way. Then act on it."
 			lede="You can't act on what you can't put your finger on. Start noticing it yourself — pay attention daily, then convert the pattern into an intention weekly."
 		/>
@@ -91,7 +92,7 @@ import RepCard from "../components/RepCard.astro";
 					<div class="flex justify-between eyebrow text-brass mb-2">
 						<span>Every night</span><span>2 min</span>
 					</div>
-					<p class="text-ink text-sm">
+					<p class="text-ink text-base">
 						What happened today that I'm still thinking about — and what does it tell
 						me about how I'm leading?
 					</p>
@@ -100,17 +101,17 @@ import RepCard from "../components/RepCard.astro";
 					<div class="flex justify-between eyebrow text-brass">
 						<span>Every week</span><span>5 min</span>
 					</div>
-					<p class="text-ink text-sm">
+					<p class="text-ink text-base">
 						What theme keeps showing up in my journal this week — and what is it
 						telling me?
 					</p>
-					<p class="text-ink text-sm">
+					<p class="text-ink text-base">
 						What is the one thing I'll do differently next week — and when exactly
 						will I do it?
 					</p>
 				</div>
 			</div>
-			<p class="text-muted text-sm mt-4 measure">
+			<p class="text-muted text-base mt-4 measure">
 				Miss a day — just resume, don't reconstruct it. Nothing to write about — that's
 				information too. Give it six weeks before you expect to see a pattern, three
 				months before you expect it to feel automatic.
@@ -120,7 +121,7 @@ import RepCard from "../components/RepCard.astro";
 
 	<section class="max-w-[1080px] mx-auto px-6 py-12 border-t border-rule">
 		<SectionHeader
-			number="Exercise 02"
+			exercise="02"
 			title="Ask for feedback. Then act on it."
 			lede="Most people never find out how they're actually coming across to others. This is how you find out — name one specific behavior, ask a handful of people who actually see it happen, and keep checking back until they tell you it's changed."
 		/>
@@ -137,7 +138,7 @@ import RepCard from "../components/RepCard.astro";
 				<span class="eyebrow text-brass">Why</span>
 				<p class="text-ink font-medium">It names the behavior, sets them up in advance, and asks for the truth.</p>
 				<span></span>
-				<p class="text-muted text-sm measure">
+				<p class="text-muted text-base measure">
 					"How am I doing?" gets you nothing back. A specific, forward-looking ask
 					gets you an actual answer — and tells the other person you can handle
 					hearing it.
@@ -150,7 +151,7 @@ import RepCard from "../components/RepCard.astro";
 			<div class="flex flex-col">
 				<div class="grid grid-cols-[2.5rem_1fr] gap-x-3 py-3 border-t border-rule">
 					<span class="font-mono text-sm text-muted tabular-nums">01</span>
-					<p class="text-ink text-sm">
+					<p class="text-ink text-base">
 						<span class="font-medium">Pick one behavior.</span> Specific enough that
 						people would recognize it if they saw it — or noticed it was missing.
 						If Exercise 01 already surfaced a theme, start there. If not, pick
@@ -159,14 +160,14 @@ import RepCard from "../components/RepCard.astro";
 				</div>
 				<div class="grid grid-cols-[2.5rem_1fr] gap-x-3 py-3 border-t border-rule">
 					<span class="font-mono text-sm text-muted tabular-nums">02</span>
-					<p class="text-ink text-sm">
+					<p class="text-ink text-base">
 						<span class="font-medium">Ask three to five people, not one.</span> People
 						who actually have line of sight on that behavior — not people who like you.
 					</p>
 				</div>
 				<div class="grid grid-cols-[2.5rem_1fr] gap-x-3 py-3 border-t border-rule">
 					<span class="font-mono text-sm text-muted tabular-nums">03</span>
-					<p class="text-ink text-sm">
+					<p class="text-ink text-base">
 						<span class="font-medium">Name it, then ask forward.</span> Tell them what
 						you're watching for before it happens, not after — it's easier to observe
 						than to remember.
@@ -174,7 +175,7 @@ import RepCard from "../components/RepCard.astro";
 				</div>
 				<div class="grid grid-cols-[2.5rem_1fr] gap-x-3 py-3 border-t border-b border-rule">
 					<span class="font-mono text-sm text-muted tabular-nums">04</span>
-					<p class="text-ink text-sm">
+					<p class="text-ink text-base">
 						<span class="font-medium">Close the loop.</span> When you act on what
 						someone told you, go back and tell them. It's the only reason they'll
 						keep being honest with you.
@@ -192,7 +193,7 @@ import RepCard from "../components/RepCard.astro";
 
 	<section class="max-w-[1080px] mx-auto px-6 py-12 border-t border-rule">
 		<SectionHeader
-			number="Exercise 03"
+			exercise="03"
 			title="Break the reaction down. Then act on it."
 			lede="Some reactions happen faster than you can think — frustration, defensiveness, the urge to jump in. This exercise slows that moment down, breaks it into its parts, and replaces it with one specific move you can run under pressure."
 		/>
@@ -207,18 +208,19 @@ import RepCard from "../components/RepCard.astro";
 			ABC model start to finish.
 		</p>
 		<RepCard />
-		<p class="text-muted text-sm mt-4 measure">
+		<p class="text-muted mt-4 measure">
 			No new personality required. Just the same specific move, run the same way,
 			until it holds up under pressure.
 		</p>
 	</section>
+	</div>
 
 	<section class="max-w-[1080px] mx-auto px-6 py-12 border-t border-rule">
 		<SectionHeader title="Who this is for" lede="Two honest lists." />
 		<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 			<div>
 				<h3 class="text-lg mb-3">This works if you:</h3>
-				<ul class="list-disc list-inside text-ink flex flex-col gap-2 text-sm">
+				<ul class="list-disc list-inside text-ink flex flex-col gap-2 text-base">
 					<li>Have tried to change a habit before and watched it not stick</li>
 					<li>Care about how you come across to people, not just what you meant to do</li>
 					<li>
@@ -230,7 +232,7 @@ import RepCard from "../components/RepCard.astro";
 			</div>
 			<div>
 				<h3 class="text-lg mb-3">This is not for you if you:</h3>
-				<ul class="list-disc list-inside text-ink flex flex-col gap-2 text-sm">
+				<ul class="list-disc list-inside text-ink flex flex-col gap-2 text-base">
 					<li>Want a label more than a behavior to change</li>
 					<li>Are looking for a diagnosis of someone else, not yourself</li>
 					<li>Want a program to roll out to a team or an organization</li>
