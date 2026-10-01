@@ -133,7 +133,7 @@ docs/
 - [ ] Fill every `[PLACEHOLDER]` — prices, booking URL, email, credentials
 - [ ] Write the About page body (only you can)
 - [ ] Pick an email provider (Kit, Beehiiv, or Buttondown) and wire the form
-- [ ] Set up a booking link (Cal.com or Calendly)
+- [ ] Set up a booking link (Google Calendar appointment schedule, done)
 - [ ] Confirm your certification wording against your distributor agreement
 - [ ] Decide your policy for "what if the ninety-day measure shows nothing changed"
 - [ ] Read the site once on your phone
