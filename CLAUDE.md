@@ -81,3 +81,10 @@ These will cause real legal and professional problems if violated:
 Prefer small, verifiable steps: build one page, run `npm run build`, look at it, then
 move on. When a decision is genuinely ambiguous, ask rather than guessing — David has
 opinions and limited time to undo things.
+
+## Website workflow
+
+- After any copy or design edit: run the build, check the page in the browser at mobile (375px) and desktop widths, then commit. Do not push until David says so ("push it" / "push everything").
+- Git push over SSH fails in this environment. Use HTTPS for the remote.
+- Watch for known issues: backdrop-filter on the mobile nav causes height bugs; chart labels can clip; YAML front-matter excerpts must be quoted.
+- Keep personal email addresses off the public site. Use the booking link instead.
