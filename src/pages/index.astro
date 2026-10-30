@@ -87,29 +87,71 @@ import RepCard from "../components/RepCard.astro";
 		</p>
 
 		<div class="mb-8">
-			<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-				<div class="bg-surface border border-rule rounded-[3px] p-5">
-					<div class="flex justify-between eyebrow text-brass mb-2">
-						<span>Every night</span><span>5 min</span>
-					</div>
-					<p class="text-ink text-base">
-						What happened today that I'm still thinking about — and what does it tell
-						me about how I'm leading?
-					</p>
-				</div>
-				<div class="bg-surface border border-rule rounded-[3px] p-5 flex flex-col gap-3">
+			<p class="eyebrow text-muted mb-3">Every day</p>
+			<ol class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+				<li class="bg-surface border border-rule rounded-[3px] p-5 flex flex-col gap-2">
 					<div class="flex justify-between eyebrow text-brass">
-						<span>Every week</span><span>10 min</span>
+						<span>Stage 1</span><span>Morning</span>
 					</div>
+					<h3 class="text-lg">Morning preparation</h3>
 					<p class="text-ink text-base">
-						What theme keeps showing up in my journal this week — and what is it
-						telling me?
+						Decide in advance what you want to accomplish today, and commit to it —
+						"fate permitting." Pursue it wholeheartedly, and be ready to accept setbacks
+						calmly when they're outside your control.
 					</p>
+				</li>
+				<li class="bg-surface border border-rule rounded-[3px] p-5 flex flex-col gap-2">
+					<div class="flex justify-between eyebrow text-brass">
+						<span>Stage 2</span><span>All day</span>
+					</div>
+					<h3 class="text-lg">Mindfulness</h3>
 					<p class="text-ink text-base">
-						What will I Stop, Start, and Continue moving into next week — and when
-						exactly will I do it?
+						Notice how you make value judgments and decisions, and how you respond to your
+						own thoughts — especially strong emotions or desires. When a distressing
+						thought shows up, pause and tell yourself:
 					</p>
+					<p class="pull-quote text-ink text-lg">
+						"This is just a thought, and not at all the thing it claims to represent."
+					</p>
+				</li>
+				<li class="bg-surface border border-rule rounded-[3px] p-5 flex flex-col gap-2">
+					<div class="flex justify-between eyebrow text-brass">
+						<span>Stage 3</span><span>Evening · 5 min</span>
+					</div>
+					<h3 class="text-lg">End-of-day review</h3>
+					<dl class="flex flex-col gap-3">
+						<div>
+							<dt class="eyebrow text-petrol">Start</dt>
+							<dd class="text-ink text-base">
+								What opportunities did I miss to do something good for my fundamental
+								wellbeing?
+							</dd>
+						</div>
+						<div>
+							<dt class="eyebrow text-petrol">Stop</dt>
+							<dd class="text-ink text-base">What did I do that harmed my fundamental wellbeing?</dd>
+						</div>
+						<div>
+							<dt class="eyebrow text-petrol">Continue</dt>
+							<dd class="text-ink text-base">
+								What did I do that was good for my fundamental wellbeing?
+							</dd>
+						</div>
+					</dl>
+				</li>
+			</ol>
+			<div class="bg-surface border border-rule rounded-[3px] p-5 flex flex-col gap-3">
+				<div class="flex justify-between eyebrow text-brass">
+					<span>Every week</span><span>10 min</span>
 				</div>
+				<p class="text-ink text-base measure">
+					What theme keeps showing up in my journal this week — and what is it
+					telling me?
+				</p>
+				<p class="text-ink text-base measure">
+					What will I Stop, Start, and Continue moving into next week — and when
+					exactly will I do it?
+				</p>
 			</div>
 			<figure class="mt-8 mb-4">
 				<blockquote class="border-l-2 border-petrol pl-5">
