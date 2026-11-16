@@ -7,16 +7,16 @@ interface Props {
 const { currentPath = "" } = Astro.props;
 
 const links = [
-	{ href: "/", label: "Home" },
+	{ href: "https://substack.com/@leadfromthehip", label: "Substack" },
 	{ href: "/work-with-me", label: "Work with me" },
 	{ href: "/about", label: "About" },
 ];
 ---
 <header class="border-b border-rule">
-	<nav class="max-w-[1080px] mx-auto px-6 py-4 flex items-center justify-between gap-4 flex-wrap">
+	<nav class="max-w-[1080px] mx-auto px-6 py-2 flex items-center justify-between gap-x-4 gap-y-0 flex-wrap">
 		<a
 			href="/"
-			class="flex items-center gap-2 text-ink no-underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-petrol rounded-sm"
+			class="flex items-center gap-2 py-2 text-ink no-underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-petrol rounded-sm"
 		>
 			<Logo class="w-7 h-6 text-petrol" />
 			<span class="font-semibold tracking-tight">Lead From The Hip</span>
@@ -28,7 +28,7 @@ const links = [
 						href={link.href}
 						aria-current={currentPath === link.href ? "page" : undefined}
 						class:list={[
-							"text-sm font-medium hover:text-petrol focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-petrol rounded-sm",
+							"inline-block py-3 text-sm font-medium hover:text-petrol focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-petrol rounded-sm",
 							currentPath === link.href ? "text-petrol" : "text-ink",
 						]}
 					>
