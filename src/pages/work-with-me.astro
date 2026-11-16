@@ -6,19 +6,19 @@ const bookingUrl = "https://calendar.app.google/VMSWBtEeNv131AxA6";
 
 const measures = [
 	{
-		name: "Lead: practice",
+		name: "What you do",
 		what: "Did you run the planned move instead of the old reaction?",
 		who: "You",
 		when: "Weekly, one line on your scoreboard",
 	},
 	{
-		name: "Lead: disturbance",
+		name: "How hard it hit",
 		what: "How hard did the old reaction hit, 0–10?",
 		who: "You",
 		when: "Weekly, same line",
 	},
 	{
-		name: "Lag: what others see",
+		name: "What others see",
 		what: "How often do they see the problem, 1–5?",
 		who: "Your boss, peers and direct reports",
 		when: "Day 0 and day 90",
@@ -30,28 +30,20 @@ const measures = [
 	description="One problem at work, worked for ninety days, measured at both ends by the people who see you work. Occasional one-on-one coaching, bought by you."
 >
 	<Hero
-		eyebrow="Engagements"
-		standfirst="This isn't the front door — the Substack and the exercises are. Occasionally I take on someone who wants the full version: one problem at work, worked for ninety days, with numbers at both ends. You buy it, you own it, and nothing here replaces your own practice."
+		eyebrow="Work with me"
+		standfirst="The free exercises and the Substack are the front door. Occasionally I take on a client who wants the full version. You buy it, you own it, and nothing here replaces your own practice."
+		primaryCta={{ label: "Book a call →", href: bookingUrl }}
 	>
-		If you want more. <span class="accent">Here's what that looks like.</span>
+		One problem. Ninety days. <span class="accent">Numbers at both ends.</span>
 	</Hero>
 
 	<section class="max-w-[1080px] mx-auto px-6 py-12 border-t border-rule">
-		<p class="text-ink measure mb-6">
+		<h2 class="text-2xl md:text-3xl mb-2">How it works</h2>
+		<p class="text-muted measure mb-6">
 			The sessions matter less than what you do between them. My job is to point you
 			at what's driving the problem, help you design the new behavior, and keep the score
 			honest.
 		</p>
-		<a
-			href={bookingUrl}
-			class="inline-block bg-petrol text-paper px-5 py-3 rounded-[3px] font-medium hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-petrol"
-		>
-			Book a call →
-		</a>
-	</section>
-
-	<section class="max-w-[1080px] mx-auto px-6 py-12 border-t border-rule">
-		<h2 class="text-2xl md:text-3xl mb-6">One problem. Ninety days. Numbers at both ends.</h2>
 		<ol class="flex flex-col mb-6">
 			<li class="grid grid-cols-1 md:grid-cols-[9rem_1fr] gap-x-4 gap-y-1 py-4 border-t border-rule">
 				<span class="font-mono text-sm text-muted">Week 0</span>
@@ -74,8 +66,8 @@ const measures = [
 					<p class="text-ink text-base measure">
 						Ninety minutes. We put your Hogan results next to what your people said and
 						pick the one problem that is high impact and within your control. We break
-						one real example down in A-B-C terms, design the new behavior, and set your weekly
-						measures.
+						one real example down in A-B-C terms, design the new behavior, and set up your scoreboard — one line you fill
+						in each week.
 					</p>
 				</div>
 			</li>
@@ -107,7 +99,7 @@ const measures = [
 	</section>
 
 	<section class="max-w-[1080px] mx-auto px-6 py-12 border-t border-rule">
-		<h2 class="text-2xl md:text-3xl mb-2">Two kinds of numbers.</h2>
+		<h2 class="text-2xl md:text-3xl mb-2">Two kinds of numbers</h2>
 		<p class="text-muted measure mb-6">
 			You control the first kind. The second tells you whether it worked.
 		</p>
@@ -142,16 +134,16 @@ const measures = [
 		</table>
 		<div class="measure flex flex-col gap-4 text-ink">
 			<p>
-				The lead measures are your goal, because they're within your power. The lag
-				measure is the proof — the gap between how you see yourself and how others
+				The first two are your goal, because they're within your power. The third
+				is the proof — the gap between how you see yourself and how others
 				describe you, narrowing or not.
 			</p>
-			<p>Your raters are asked twice. That's it.</p>
+			<p>You ask the people around you twice. That's it.</p>
 		</div>
 	</section>
 
 	<section class="max-w-[1080px] mx-auto px-6 py-12 border-t border-rule">
-		<h2 class="text-2xl md:text-3xl mb-2">How it's priced.</h2>
+		<h2 class="text-2xl md:text-3xl mb-2">Pricing and payment</h2>
 		<p class="text-muted measure mb-6">
 			Priced per ninety-day cycle, because the cycle is what ends in a measurement.
 			Current rates are on the call.
@@ -175,8 +167,8 @@ const measures = [
 					<tr class="border-b border-rule">
 						<th scope="row" class="font-medium py-3 pr-4 align-top">Full cycle</th>
 						<td class="py-3 align-top">
-							Everything on this page: Hogan Flash report, debrief, three check-ins, rater
-							baseline and re-measure, email support.
+							Everything on this page: Hogan Flash report, debrief, three check-ins, a
+							baseline and re-measure from the people you ask, email support.
 						</td>
 					</tr>
 					<tr class="border-b border-rule">
@@ -190,10 +182,8 @@ const measures = [
 				</tbody>
 			</table>
 		</div>
-	</section>
 
-	<section class="max-w-[1080px] mx-auto px-6 py-12 border-t border-rule">
-		<h2 class="text-2xl md:text-3xl mb-4">The practice deposit.</h2>
+		<h3 class="text-xl mt-10 mb-3">The practice deposit</h3>
 		<div class="measure flex flex-col gap-4 text-ink">
 			<p>
 				Part of your first full cycle is a deposit on your own practice. Do the work and it
@@ -204,15 +194,13 @@ const measures = [
 				<li>Log your practice on your scoreboard in at least 10 of the 12 weeks.</li>
 			</ul>
 			<p>
-				Your raters' day-90 answers have no bearing on it — the work is within your
+				What people say at day 90 has no bearing on it — the work is within your
 				power; what other people notice isn't. Do the practice and your first cycle
 				costs what every cycle after it does.
 			</p>
 		</div>
-	</section>
 
-	<section class="max-w-[1080px] mx-auto px-6 py-12 border-t border-rule">
-		<h2 class="text-2xl md:text-3xl mb-4">Payment</h2>
+		<h3 class="text-xl mt-10 mb-3">Payment</h3>
 		<div class="measure flex flex-col gap-4 text-ink">
 			<p>
 				In full at signup, or half at signup and half at week six. Hogan fees are paid up
@@ -270,40 +258,11 @@ const measures = [
 				</p>
 			</div>
 			<div>
-				<h3 class="text-lg mb-1">What do I ask the people I work with?</h3>
-				<p class="text-ink text-base">
-					Two short asks, ninety days apart — the ones in Week 0 and Week 12 above. Ask
-					three to five people who actually see you work. I give you the wording.
-				</p>
-			</div>
-			<div>
-				<h3 class="text-lg mb-1">Does my employer find out?</h3>
-				<p class="text-ink text-base">
-					Not from me. Everything is commissioned by you and delivered to you. The only
-					people who know are the ones you choose to ask.
-				</p>
-			</div>
-			<div>
 				<h3 class="text-lg mb-1">What if the ninety-day measure shows nothing changed?</h3>
 				<p class="text-ink text-base">
 					Then it shows nothing changed, and you find out from data instead of from a
 					feeling. That is the point of including it. Your practice deposit doesn't depend on
 					it.
-				</p>
-			</div>
-			<div>
-				<h3 class="text-lg mb-1">Which assessments do you use?</h3>
-				<p class="text-ink text-base">
-					The Hogan Assessment suite — the Hogan Personality Inventory (HPI), the Hogan
-					Development Survey (HDS), and the Motives, Values, Preferences Inventory (MVPI).
-					Certified directly by Hogan in 2020.
-				</p>
-			</div>
-			<div>
-				<h3 class="text-lg mb-1">Do I retake the Hogan every cycle?</h3>
-				<p class="text-ink text-base">
-					No. Personality is stable, so a retest would tell you nothing new. That's why the
-					next cycle costs less.
 				</p>
 			</div>
 			<div>
@@ -314,6 +273,10 @@ const measures = [
 	</section>
 
 	<section class="max-w-[1080px] mx-auto px-6 py-12 border-t border-rule">
+		<p class="text-ink measure mb-6">
+			Start with a twenty-minute call to see whether there's anything here for
+			you.
+		</p>
 		<a
 			href={bookingUrl}
 			class="inline-block bg-petrol text-paper px-5 py-3 rounded-[3px] font-medium hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-petrol"
